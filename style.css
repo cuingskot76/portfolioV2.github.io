@@ -7,7 +7,8 @@
   scroll-behavior: smooth;
 }
 
-html {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -669,7 +670,7 @@ input[type="submit"]:hover {
   }
   .about-img img {
     display: flex;
-    margin: 0 auto 60px;
+    margin: 0 auto;
   }
 }
 
@@ -734,7 +735,6 @@ input[type="submit"]:hover {
 @media screen and (max-width: 576px) {
   .logo {
     font-size: 2rem;
-    /* margin-left: 10px; */
   }
   .jumbotron .jumbotron-text {
     display: flex;
@@ -770,7 +770,7 @@ input[type="submit"]:hover {
     width: 90%;
   }
   .about-me .about-img img {
-    transform: scale(0.9);
+    transform: scale(0.6);
   }
 
   .contact-right h3 {
