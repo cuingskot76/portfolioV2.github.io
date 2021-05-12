@@ -153,6 +153,10 @@ body {
 }
 .jumbotron .jumbotron-img {
   margin-top: 20px;
+  z-index: 99999999999;
+}
+.jumbotron-img img {
+  z-index: 999999999999;
 }
 
 .jumbotron .jumbotron-2 {
