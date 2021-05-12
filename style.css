@@ -60,6 +60,18 @@ body {
 .mak-width {
   margin: 0 50px;
 }
+/* TITTLE */
+.tittle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  margin-bottom: 70px;
+}
+.tittle h2 {
+  font-size: 2.3rem;
+}
 
 .logo {
   font-size: 2rem;
@@ -204,19 +216,7 @@ body {
   margin: 50px 0;
   padding: 50px 0 100px 0;
   display: flex;
-}
-
-.tittle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  position: relative;
-  margin-bottom: 70px;
-}
-
-.tittle h2 {
-  font-size: 2.3rem;
+  /* background-color: yellowgreen; */
 }
 
 .tittle::before {
@@ -229,7 +229,7 @@ body {
   background-color: black;
   transform: translateX(-50%);
 }
-.about .tittle::after {
+.tittle::after {
   content: "who i am";
   position: absolute;
   top: 43px;
@@ -244,6 +244,8 @@ body {
 
 .about-me {
   display: flex;
+  width: 100%;
+  /* background-color: blue; */
 }
 
 .about-me .about-img {
@@ -661,12 +663,8 @@ input[type="submit"]:hover {
   }
 
   .about-me {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 100%;
+    /* width: 100%; */
   }
   .about-img img {
     display: flex;
@@ -676,6 +674,15 @@ input[type="submit"]:hover {
 
 /* tablet */
 @media screen and (max-width: 768px) {
+  /* MAX-WIDTH */
+  .max-width {
+    width: 100%;
+    margin: 0 20px;
+  }
+  /* MAK WIDTH */
+  .mak-width {
+    margin: 0 20px;
+  }
   .menu ul {
     position: absolute;
     justify-content: space-around;
@@ -767,10 +774,11 @@ input[type="submit"]:hover {
   }
 
   .about-content .about-me {
-    width: 90%;
+    /* width: 90%; */
+    /* background-color: yellowgreen; */
   }
   .about-me .about-img img {
-    transform: scale(0.6);
+    /* transform: scale(0.6); */
   }
 
   .contact-right h3 {
@@ -791,5 +799,9 @@ input[type="submit"]:hover {
     width: 100%;
 
     height: 100px;
+  }
+
+  .gallery-content img {
+    width: 250px;
   }
 }
