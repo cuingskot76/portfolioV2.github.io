@@ -153,6 +153,7 @@ body {
 }
 .jumbotron .jumbotron-img {
   margin-top: 20px;
+  /* background-color: red; */
 }
 
 .jumbotron .jumbotron-2 {
@@ -768,6 +769,8 @@ input[type="submit"]:hover {
     top: 150px;
     right: -100px;
     transform: scale(0.6);
+    background-color: red;
+    width: 100%;
   }
   .jumbotron-text .content a {
     width: 50%;
