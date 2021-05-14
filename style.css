@@ -766,7 +766,7 @@ input[type="submit"]:hover {
   }
   .jumbotron-img img {
     top: 150px;
-    right: -50px;
+    right: -100px;
     transform: scale(0.6);
   }
   .jumbotron-text .content a {
