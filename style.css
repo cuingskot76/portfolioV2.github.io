@@ -770,7 +770,7 @@ input[type="submit"]:hover {
     right: -100px;
     transform: scale(0.6);
     background-color: red;
-    width: 100%;
+    width: 100vw;
   }
   .jumbotron-text .content a {
     width: 50%;
