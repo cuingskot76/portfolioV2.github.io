@@ -769,7 +769,7 @@ input[type="submit"]:hover {
     top: 150px;
     right: -100px;
     transform: scale(0.6);
-    background-color: red;
+    /* background-color: red; */
     width: 100vw;
   }
   .jumbotron-text .content a {
