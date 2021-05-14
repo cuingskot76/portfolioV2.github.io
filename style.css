@@ -153,7 +153,6 @@ body {
 }
 .jumbotron .jumbotron-img {
   margin-top: 20px;
-  z-index: 99999999999;
 }
 
 .jumbotron .jumbotron-2 {
@@ -767,19 +766,11 @@ input[type="submit"]:hover {
   }
   .jumbotron-img img {
     top: 150px;
-    right: -100px;
+    right: -50px;
     transform: scale(0.6);
   }
   .jumbotron-text .content a {
     width: 50%;
-  }
-
-  .about-content .about-me {
-    /* width: 90%; */
-    /* background-color: yellowgreen; */
-  }
-  .about-me .about-img img {
-    /* transform: scale(0.6); */
   }
 
   .contact-right h3 {
