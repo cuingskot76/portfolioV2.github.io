@@ -151,13 +151,21 @@ body {
   background-size: cover;
   color: black;
 }
+.jumbotron-2 {
+  position: relative;
+}
 .jumbotron .jumbotron-img {
+  background-image: url(img/400.png);
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 476px;
   margin-top: 20px;
   z-index: 99999999999;
 }
-.jumbotron-img img {
+/* .jumbotron-img img {
   z-index: 999999999999;
-}
+} */
 
 .jumbotron .jumbotron-2 {
   display: flex;
@@ -624,10 +632,10 @@ input[type="submit"]:hover {
 
   .jumbotron .jumbotron-text {
     min-width: 50%;
+    top: 50%;
+    position: relative;
   }
-  .jumbotron .jumbotron-img {
-    margin-right: -100px;
-  }
+
   .jumbotron-text .text-1 {
     font-size: 1.8rem;
   }
@@ -638,9 +646,22 @@ input[type="submit"]:hover {
   .jumbotron-text .text-3 {
     font-size: 1.8rem;
   }
-  .jumbotron-img img {
-    border-color: yellowgreen;
+  .jumbotron-2 {
+    position: relative;
+  }
+  .jumbotron-img {
     transform: scale(0.8);
+    position: absolute;
+    top: 0;
+    right: -80px;
+    /* width: 300px; */
+    /* height: 376px; */
+    margin-top: 20px;
+  }
+  .icon {
+    position: absolute;
+    top: 400px;
+    width: 50%;
   }
 
   .skills-content {
@@ -719,23 +740,26 @@ input[type="submit"]:hover {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 30px;
     z-index: 9;
-    position: relative;
-  }
-  .jumbotron-img img {
     position: absolute;
-    top: 130px;
+    width: 100%;
+    top: 40px;
+  }
+  .jumbotron-img {
+    /* top: 130px; */
     right: -80px;
+    top: 100px;
     transform: scale(0.7);
   }
   .logo {
     font-size: 2rem;
   }
   .icon {
-    bottom: -250px;
+    /* bottom: -250px; */
     position: absolute;
     z-index: 999999;
+    width: 10%;
+    top: 300px;
   }
   .icon img {
     display: block;
@@ -753,6 +777,8 @@ input[type="submit"]:hover {
     justify-content: flex-start;
     margin-top: 30px;
     z-index: 9;
+    width: 100%;
+    top: 0;
   }
   .jumbotron-text .text-1 {
     font-size: 1.5rem;
@@ -767,22 +793,15 @@ input[type="submit"]:hover {
   .jumbotron-text .icon {
     width: 100%;
     display: inline-block;
+    top: 320px;
   }
-  .jumbotron-img img {
-    top: 150px;
+  .jumbotron-img {
+    top: 100px;
     right: -100px;
     transform: scale(0.6);
   }
   .jumbotron-text .content a {
     width: 50%;
-  }
-
-  .about-content .about-me {
-    /* width: 90%; */
-    /* background-color: yellowgreen; */
-  }
-  .about-me .about-img img {
-    /* transform: scale(0.6); */
   }
 
   .contact-right h3 {
