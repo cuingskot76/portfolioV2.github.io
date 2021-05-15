@@ -467,7 +467,6 @@ body {
 
 .gallery-content img {
   width: 400px;
-  background-color: #222;
 }
 .gallery-content h3 {
   padding-bottom: 20px;
@@ -478,6 +477,7 @@ body {
 .gallery-main {
   background-color: #222;
   transition: all 0.3s;
+  margin-top: 20px;
 }
 .gallery-main:hover {
   transform: scale(1.05);
@@ -671,6 +671,9 @@ input[type="submit"]:hover {
     display: flex;
     margin: 0 auto;
   }
+  .gallery-content img {
+    width: 300px;
+  }
 }
 
 /* tablet */
@@ -738,6 +741,15 @@ input[type="submit"]:hover {
     display: block;
     margin: 20px;
   }
+  .gallery-content {
+    justify-content: center;
+  }
+  .gallery-content img {
+    width: 360px;
+  }
+  .gallery-main {
+    margin-top: 20px;
+  }
 }
 /* hp */
 @media screen and (max-width: 576px) {
@@ -794,9 +806,5 @@ input[type="submit"]:hover {
     width: 100%;
 
     height: 100px;
-  }
-
-  .gallery-content img {
-    width: 300px;
   }
 }
